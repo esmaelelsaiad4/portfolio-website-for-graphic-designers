@@ -1,0 +1,41 @@
+/*** start filter buttons ***/
+
+.filterDiv {
+    float: left;
+    color: #000;
+    display: none;
+  }
+  
+  .filter-area {
+    margin-bottom: 30px;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  .container {
+    overflow: hidden;
+  }
+  
+  /* Style the buttons */
+  
+  .btn-filter {
+    border: 1px solid gray;
+    border-radius: 10px;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    line-height: 15px;
+    letter-spacing: 2px;
+  }
+  
+  .btn-filter:hover {
+    background-color: #ddd;
+  }
+  
+  .btn-filter.active {
+    background-color: #529c52;
+    color: white;
+  }
